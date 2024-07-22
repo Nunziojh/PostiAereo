@@ -1,8 +1,15 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/_8yXOlwa)
 # Exam #2: "Posti aereo"
 ## Student: s3150067 MESSINEO NUNZIO 
 
+Istruzioni per l'uso:
+```sh
+git clone ...yourCloneURL...
+cd ...yourProjectDir...
+git pull origin main  # just in case the default branch is not main 
+(cd server ; npm install; nodemon index.mjs)
+(cd client ; npm install; npm run dev)
 ## React Client Application Routes
+```
 
 - Route `/voli`: pagina contenente la selezione dei voli con i link alle pagine dei voli
 - Route `/voli/locale`: pagina relativa al volo locale
