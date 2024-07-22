@@ -3,7 +3,7 @@
 
 Istruzioni per l'uso:
 ```sh
-git clone ...yourCloneURL...
+git clone [...yourCloneURL...](https://github.com/Nunziojh/WebApplicationI.git)
 cd ...yourProjectDir...
 git pull origin main  # just in case the default branch is not main 
 (cd server ; npm install; nodemon index.mjs)
